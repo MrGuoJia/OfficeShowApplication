@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-files-path name="files" path="photos" />
+    <external-path name="files" path="photos" />
+    <root-path path="" name="camera_photos" />/*必须，不然会报java.lang.IllegalArgumentException: Failed to find configured root错误*/
+
+</Paths>
